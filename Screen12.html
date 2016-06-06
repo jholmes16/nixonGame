@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script language="javascript" type="application/javascript" src="ScreenBExp.js"></script>
+<link href="Investigator.css" lang="css" media="all" type="text/css" rel="stylesheet"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Investigator Home</title>
+</head>
+
+<body onLoad="binit('Images/IconOfficeBack.jpg'); returnInit();">
+
+<a href="#" onClick="bon_click('Screen11.html');"><canvas id="Screen2_Back-Nav" name="Screen2_Back-Nav">
+Browser not HTML5 compliant.
+</canvas>
+</a>
+
+<audio autoplay="true">
+  <source src="Audio/BossRecomend.mp3" type="audio/mpeg">
+  <source src="Audio/BossRecomend.ogg" type="audio/ogg">
+  Your browser does not support this audio format.
+</audio>
+
+<div id="back" name="back">
+<img src="Images/BackGrayBottom.jpg" width="1024" height="768" alt="Background">
+</div>
+
+<div id="Date" name="Date">
+July 31, 1974
+</div>
+<div id="Desk_Bottom-Gray" name="Desk_Bottom-Gray">
+<img src="Images/BossDesk.jpg" width="555" height="380" alt="Frank Willis">
+</div>
+<div id="Decision" name="Decision">
+<p align="center" class="Decision">
+<strong>Reason For Decision</strong>
+</br>
+
+<form name="myForm" id="myForm">
+<textarea id="myField" name="myField" onFocus="clearContents(this);" cols="85" rows="6">
+Enter Decision....Must be at least 50 characters
+</textarea>
+</form>
+</p>
+</div>
+
+<div id="Not_Guilty_Button" name="Not_Guilty_Button">
+    <input name="E_Decision" id="E_Decision" type="image" src="Images/IconNotGuilty.jpg" width="90" height="40" alt="No" onClick="submitText();" />
+</div>
+
+ <div id="Guilty_Button" name="Guilty_Button">
+    <input name="E_Decision_Text" id="E_Decision_Text" type="image" src="Images/IconGuilty.jpg" width="90" height="40" alt="Yes"onClick="submitText();" />
+</div>
+
+
+<div id="Evidence" name="Evidence">
+<a href="#" onClick="pageReturn();">
+<img src="Images/ReturnPrevPg.png"width="88" height="69" alt="Page Return"></a>
+</div>
+
+
+<div id="Bnav_block1-gray">
+<img src="Images/HidBox.jpg" width="75" height="100">
+</div>
+
+<div id="Bnav_block2-gray">
+<img src="Images/HidBox.jpg" width="300" height="60">
+</div>
+
+<div id="EvidenceClick" name="EvidenceClick">
+<a href="Evidence.html?eleven">
+<img src="Images/EvidenceClickButton.png" width="88" height="45" alt="Page Return">
+</a>
+</div>
+
+</body>
+</html>

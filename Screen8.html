@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script language="javascript" type="application/javascript" src="ScreenCExp.js"></script>
+<link href="Investigator.css" lang="css" media="all" type="text/css" rel="stylesheet"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Investigator</title>
+</head>
+
+<body onLoad="init('Images/IconBossOfficeFor.jpg','Images/IconBossOfficeBack.jpg'); returnInit();">
+
+<a href="#" onClick="bon_click('Screen7.html');"><canvas id="ScreenSGray-Back_Navigation" name="ScreenSGray-Back_Navigation">
+Browser not HTML5 compliant.
+</canvas>
+</a>
+
+<a href="#" onClick="for_on_click('Screen9.html');"><canvas id="ScreenSGray-Forward_Navigation" name="ScreenSGray-Forward_Navigation">
+Browser not HTML5 compliant.
+</canvas>
+</a>
+
+<div id="back" name="back">
+<img src="Images/BackHome.jpg" width="1024" height="768" alt="Background">
+</div>
+<div id="Date" name="Date">
+November 7, 1972
+</div>
+<div id="ScreenSGray_Desk" name="ScreenSGray_Desk">
+<img src="Images/Television.png" width="725" height="460" align="top" alt="Television">
+<p class="open" align="center">
+ President Nixons 1972 Re-election speech.
+</p>
+</div>
+
+<video id="Video1" name="Video1" width="610" height="695" autoplay>
+  <source src="MVideo/NixonVictory(1).mp4" type="video/mp4">
+  <source src="MVideo/NixonVictory(1).webmhd.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+<div id="Pause_Button" name="Pause_Button">
+<img src="Images/PausePlayButton.jpg" onclick="vidplay1('Video1');" width="175" height="40" border="1" alt="Begin">
+</div>
+
+<div id="Evidence" name="Evidence">
+<a href="#" onClick="pageReturn();">
+<img src="Images/ReturnPrevPg.png"width="88" height="69" alt="Page Return"></a>
+</div>
+
+<div id="Bnav_block1-tv">
+<img src="Images/HidBox.jpg" width="83" height="100">
+</div>
+
+<div id="Bnav_block2-tv">
+<img src="Images/HidBox.jpg" width="1166" height="60">
+</div>
+
+<div id="Fnav_block2-tv">
+<img src="Images/HidBox.jpg" width="250" height="90">
+</div>
+
+<div id="EvidenceClick" name="EvidenceClick">
+<a href="Evidence.html?seven">
+<img src="Images/EvidenceClickButton.png" width="88" height="45" alt="Page Return">
+</a>
+</div>
+
+</body>
+</html>
